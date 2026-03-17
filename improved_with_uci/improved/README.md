@@ -1,4 +1,4 @@
-# SmartMonitoringSystem — Improved Research Codebase
+# SmartMonitoringSystem 
 
 Temporal Disease Progression Modelling with Behavioural Robustness Evaluation
 
@@ -14,7 +14,7 @@ The system extends static disease prediction to **temporal trajectory modelling*
 
 ---
 
-## What Changed (v2 — Improved)
+
 
 ### Critical Bug Fixes
 
@@ -27,7 +27,7 @@ The system extends static disease prediction to **temporal trajectory modelling*
 | **Ablation model never trained in main** | `main.py` only called 2 of 3 training scripts | All 3 models trained before evaluation |
 | **Pandas deprecation warnings** | `fillna(inplace=True)` | Fixed for pandas 2.0+ CoW semantics |
 
-### New Features
+### Features
 
 - **NHANES-calibrated dataset** (`utils/nhanes_synthetic.py`): N=2000, 8 clinical features (Glucose, HbA1c, SBP, DBP, BMI, Age, HDL, Triglycerides), ADA 2021 diagnostic criteria, 11.9% prevalence matching NHANES 2017–18
 - **Cross-dataset validation** (`analysis/cross_dataset_validation.py`): Compares Pima vs NHANES results for generalisability
